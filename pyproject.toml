@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "booleanify"
+version = "0.1.0"
+description = "Easily convert common strings to boolean"
+authors = ["lamnguyenx <lamfm95@gmail.com>"]
+license = "apache"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
