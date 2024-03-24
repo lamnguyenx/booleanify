@@ -5,6 +5,7 @@ description = "Easily convert common strings to boolean"
 authors = ["lamnguyenx <lamfm95@gmail.com>"]
 license = "apache"
 readme = "README.md"
+homepage = "https://github.com/lamnguyenx/booleanify.git"
 
 [tool.poetry.dependencies]
 python = "^3.7"
