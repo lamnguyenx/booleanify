@@ -6,15 +6,15 @@ Inspired by Pydantic's boolean, Booleanify is a Python package that provides a s
 
 You can install Booleanify using pip:
 
-\`\`\`bash
+```bash
 pip install booleanify
-\`\`\`
+```
 
 ## Usage
 
-To use Booleanify in your Python code, simply import the \`booleanify\` function and pass a string representing a boolean value to it. The function will return the corresponding boolean value.
+To use Booleanify in your Python code, simply import the `booleanify` function and pass a string representing a boolean value to it. The function will return the corresponding boolean value.
 
-\`\`\`python
+```python
 from booleanify import booleanify
 
 result = booleanify("T")
@@ -22,7 +22,7 @@ print(result)  # Output: True
 
 result = booleanify("false")
 print(result)  # Output: False
-\`\`\`
+```
 
 Booleanify supports the following string representations for boolean values:
 
